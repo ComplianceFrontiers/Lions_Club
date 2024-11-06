@@ -26,19 +26,19 @@ const galleryThreeData = [
   {
     id: 4,
     image: gallery4,
-    href: "assets/images/gallery/gallery-2-4.png",
+    href: "assets/images/gallery/gallery-2-4.jpg",
     icon: faInstagram,
   },
   {
     id: 5,
     image: gallery5,
-    href: "assets/images/gallery/gallery-1-5.png",
+    href: "assets/images/gallery/gallery-1-5.jpg",
     icon: faInstagram,
   },
   {
     id: 6,
     image: gallery3,
-    href: "assets/images/gallery/gallery-1-3.png",
+    href: "assets/images/gallery/gallery-1-3.jpg",
     icon: faInstagram,
   },
 ];
