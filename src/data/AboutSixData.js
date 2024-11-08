@@ -9,7 +9,7 @@ const aboutSixData = {
   image1,
   image2,
   tagLine: "Ready to help us",
-  title: "Helping people those \nwho in need",
+  title: "Helping people those \n who in need",
   text: "Denounce with righteous indignation and dislike men who are beguiled and demoralized by the charms of pleasure of the moment so blinded by desire, that they cannot foresee the pain and trouble.",
   lists: [
     {
