@@ -80,6 +80,15 @@ const navItems = [
   },
   {
     id: 5,
+    name: "Gallery",
+    href: "/gallery",
+    subNavItems: [
+      { id: 1, name: "Gallery", href: "/gallery" },
+      { id: 2, name: "Gallery Details", href: "/gallery-details" },
+    ],
+  },
+  {
+    id: 6,
     name: "Blog",
     href: "/blog",
     subNavItems: [
@@ -88,7 +97,7 @@ const navItems = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     name: "Contact",
     href: "/contact",
     subNavItems: [],
