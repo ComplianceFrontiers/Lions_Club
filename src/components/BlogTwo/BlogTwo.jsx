@@ -18,7 +18,7 @@ const BlogTwo = () => {
         alt=''
       />
 
-      <Container>
+      {/* <Container>
         <div className='sec-title text-center'>
           <p className='sec-title__tagline'>{tagLine}</p>
 
@@ -32,7 +32,7 @@ const BlogTwo = () => {
                 <div className='blog-card__date'>
                   <span>28</span>Oct
                 </div>
-
+{/* 
                 <div className='blog-card-two__content'>
                   <div className='blog-card-two__content__top'>
                     <div className='blog-card-two__author'>
@@ -63,16 +63,16 @@ const BlogTwo = () => {
                     </i>
                     {data.linkText}
                   </Link>
-                </div>
+                </div> */}
 
-                <div className='blog-card-two__image'>
+                {/* <div className='blog-card-two__image'>
                   <Image src={data.image} alt='' />
-                </div>
-              </div>
+                </div> */}
+              {/* </div>
             </Col>
           ))}
         </Row>
-      </Container>
+      </Container> */} */
     </section>
   );
 };

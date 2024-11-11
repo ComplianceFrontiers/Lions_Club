@@ -64,13 +64,13 @@ const BlogHomeThree = () => {
             className='thm-tns__carousel'
             id='blog-carousel-1'
           >
-            {carouselData.map((carousel, index) => (
+            {/* {carouselData.map((carousel, index) => (
               <SingleBlogHome
                 key={carousel.id}
                 carousel={carousel}
                 index={index}
               />
-            ))}
+            ))} */}
           </TinySlider>
         </div>
       </Container>
