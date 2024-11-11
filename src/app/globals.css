@@ -2054,8 +2054,8 @@ img {
 }
 
 .site-footer__top {
-  padding-top: 7.375rem;
-  padding-bottom: 4.375rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
 }
 
 .site-footer__social {
@@ -2112,8 +2112,8 @@ img {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+  /* padding-top: 2.5rem; */
+  /* padding-bottom: 2.5rem; */
 }
 
 @media (min-width: 576px) {
@@ -2129,7 +2129,7 @@ img {
   font-size: 15px;
   font-weight: 500;
   color: var(--paroti-light, #8fa6aa);
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 @media (min-width: 576px) {

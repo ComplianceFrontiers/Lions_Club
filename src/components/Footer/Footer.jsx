@@ -34,52 +34,7 @@ const Footer = () => {
               </div>
             </Col>
 
-            {/* <Col
-              sm={12}
-              ms={6}
-              lg={6}
-              xl={2}
-              data-aos='fade-up'
-              data-aos-easing='linear'
-              data-aos-duration='1500'
-              data-aos-delay='100'
-            >
-              <div className='site-footer__widget'>
-                <h3 className='site-footer__widget__title'>Links</h3>
-
-                <ul className='list-unstyled site-footer__widget__links'>
-                  {links.map((link) => (
-                    <li key={link.id}>
-                      <a href={link.link}>{link.title}</a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </Col>
-
-            <Col
-              sm={12}
-              ms={6}
-              lg={6}
-              xl={2}
-              data-aos='fade-up'
-              data-aos-easing='linear'
-              data-aos-duration='1500'
-              data-aos-delay='200'
-            >
-              <div className='site-footer__widget'>
-                <h3 className='site-footer__widget__title'>Non Profit</h3>
-
-                <ul className='list-unstyled site-footer__widget__links'>
-                  {nonProfit.map((profit) => (
-                    <li key={profit.id}>
-                      <Link href={profit.link}>{profit.title}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </Col> */}
-
+            
             <Col
               sm={12}
               ms={6}
