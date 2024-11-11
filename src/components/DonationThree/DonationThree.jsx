@@ -41,29 +41,7 @@ const DonationThree = () => {
               </div>
             </Col>
           ))}
-
-          <Col
-            md={12}
-            lg={12}
-            xl={4}
-            className=''
-            data-aos-delay='200ms'
-            data-aos='fade-up'
-            data-aos-easing='linear'
-            data-aos-duration='1500'
-          >
-            <div
-              className='cta-two'
-              style={{ backgroundImage: `url(${ctaTwo.bg.src})` }}
-            >
-              <i className='paroti-icon-support cta-two__icon'></i>
-              <h3 className='cta-two__title'>{ctaTwo.title}</h3>
-              <Link href={ctaTwo.link} className='thm-btn cta-two__btn'>
-                <span>{ctaTwo.btnText}</span>
-              </Link>
-              <span className={ctaTwo.btnIcon}></span>
-            </div>
-          </Col>
+ 
         </Row>
       </Container>
     </section>
