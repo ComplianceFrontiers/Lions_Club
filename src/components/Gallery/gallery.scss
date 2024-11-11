@@ -1,26 +1,5 @@
 .gallery-container {
-  .hero-section {
-    background-color: #b7a576;
-    padding: 2rem;
-    text-align: center;
-    color: #fff;
-
-    .hero-content {
-      max-width: 800px;
-      margin: 0 auto;
-
-      h1 {
-        font-size: 2.5rem;
-        font-weight: bold;
-      }
-
-      p {
-        font-size: 1.2rem;
-        color: #ddd;
-      }
-    }
-  }
-
+ 
   .masonry-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -38,7 +17,7 @@
       }
 
       img {
-        width: 100%;
+        width: auto;
         height: auto;
         display: block;
         object-fit: cover;
@@ -57,32 +36,36 @@
     z-index: 999;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 100%;
+    width: auto; /* Full width for proper centering */
+    height: auto; /* Full height for proper centering */
     background-color: rgba(0, 0, 0, 0.9);
     justify-content: center;
     align-items: center;
-    overflow: hidden; /* Prevent overflow on modal */
+    overflow: hidden;
     transition: opacity 0.5s ease;
-
+  
     &.active {
-      display: flex; /* Show when active */
-      opacity: 1; /* Fade in effect */
+      display: flex; /* Show modal when active */
+      opacity: 1;
     }
-
+  
     .modal-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 90%; /* Limits image width to 90% of screen */
+      max-height: 90%; /* Limits image height to 90% of screen */
       position: relative;
-      max-width: 100%; /* Responsive max width */
-      max-height: 100%; /* Responsive max height */
-      overflow: auto; /* Allow scrolling for content if necessary */
-
+  
       img {
-        max-width: 100%; /* Keep images responsive */
-        max-height: 100vh; /* Limit height to prevent overflow */
+        max-width: 100%;
+        max-height: 100vh; /* Keeps image height within viewport */
         border-radius: 10px;
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        margin: auto;
+        display: block;
       }
-
+  
       .close-button {
         position: absolute;
         top: 20px;
@@ -91,12 +74,12 @@
         font-size: 2rem;
         cursor: pointer;
         transition: color 0.3s;
-
+  
         &:hover {
-          color: #b7a576; // Change color on hover
+          color: #b7a576;
         }
       }
-
+  
       .arrow {
         position: absolute;
         top: 50%;
@@ -104,21 +87,21 @@
         color: white;
         font-size: 3rem;
         cursor: pointer;
-        z-index: 1000;
         transition: color 0.3s;
-
+  
         &.left {
           left: 20px;
         }
-
+  
         &.right {
           right: 20px;
         }
-
+  
         &:hover {
-          color: #b7a576; // Change color on hover
+          color: #b7a576;
         }
       }
     }
   }
+  
 }

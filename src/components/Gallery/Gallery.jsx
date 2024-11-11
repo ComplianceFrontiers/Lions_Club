@@ -33,7 +33,7 @@ const Gallery = () => {
       <div className="masonry-gallery">
         {carouselData.map((data, index) => (
           <div key={data.id} className="gallery-item" onClick={() => openModal(index)}>
-            <Image src={data.image} alt={`Gallery Item ${index + 1}`} layout="responsive" width={350} height={250} />
+            <Image src={data.image} alt={`Gallery Item ${index + 1}`} layout="responsive" width='auto' height='auto' />
           </div>
         ))}
       </div>
@@ -41,7 +41,7 @@ const Gallery = () => {
       {/* Modal */}
       <div className={`modal ${modalActive ? "active" : ""}`} onClick={closeModal}>
         <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-          <Image src={carouselData[currentImageIndex].image} alt={`Full-screen Gallery ${currentImageIndex + 1}`} layout="responsive" width={1000} height={600} />
+          <Image src={carouselData[currentImageIndex].image} alt={`Full-screen Gallery ${currentImageIndex + 1}`} layout="responsive" width='auto' height= 'auto' />
           <div className="arrow left" onClick={prevImage} aria-label="Previous Image" role="button">&#10094;</div>
           <div className="arrow right" onClick={nextImage} aria-label="Next Image" role="button">&#10095;</div>
           <div className="close-button" onClick={closeModal} aria-label="Close" role="button">&#10006;</div>
