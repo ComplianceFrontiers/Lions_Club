@@ -11,12 +11,7 @@ const PageHeader = ({ title = "", list = "" }) => {
     >
       <Container>
         <ul className='list-unstyled breadcrumb-one'>
-          <li>
-            <Link href='/'>Home</Link>
-          </li>
-          <li>
-            <span>{list ? list : title}</span>
-          </li>
+        
         </ul>
         <h2 className='page-header__title'>{title}</h2>
       </Container>
