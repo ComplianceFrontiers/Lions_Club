@@ -1,35 +1,31 @@
-import AboutTwo from "@/components/AboutTwo/AboutTwo";
-import Blog from "@/components/Blog/Blog";
+import AboutFour from "@/components/AboutFour/AboutFour";
+import BlogHomeThree from "@/components/BlogHomeThree/BlogHomeThree";
 import CtaOne from "@/components/CtaOne/CtaOne";
-import DonationCarousel from "@/components/DonationCarousel/DonationCarousel";
-import DonationTwo from "@/components/DonationTwo/DonationTwo";
-import FunFactTwo from "@/components/FunFactTwo/FunFactTwo";
-import GalleryOne from "@/components/GalleryOne/GalleryOne";
+import DonationHomeThree from "@/components/DonationHomeThree/DonationHomeThree";
+import DonationThree from "@/components/DonationThree/DonationThree";
+import GalleryOneThree from "@/components/GalleryOneThree/GalleryOneThree";
 import Layout from "@/components/Layout/Layout";
-
-import NewsLetterOne from "@/components/NewsLetterOne/NewsLetterOne";
-import SliderOne from "@/components/SliderOne/SliderOne";
+import SliderTwo from "@/components/SliderTwo/SliderTwo";
 import Sponsors from "@/components/Sponsors/Sponsors";
-import TestimonialOne from "@/components/TestimonialOne/TestimonialOne";
-import VideoOne from "@/components/VideoOne/VideoOne";
+import React from "react";
+export const metadata = {
+  title: "Home Three || Paroti || Non Profit Charity Nextjs Template",
+  description: "Non Profit Charity Nextjs Template",
+};
 
-export default function Home() {
+const HomeThreePage = () => {
   return (
-    <Layout>
-      <main>
-        <SliderOne />
-        <AboutTwo />
-        <DonationTwo />
-        <CtaOne />
-        <DonationCarousel />
-        <TestimonialOne />
-        <GalleryOne />
-        <VideoOne />
-        <Sponsors />
-        <FunFactTwo />
-        <Blog />
-        <NewsLetterOne />
-      </main>
+    <Layout pageTitle='Home Two'>
+      <SliderTwo />
+      <DonationThree />
+      <AboutFour />
+      <CtaOne />
+      <DonationHomeThree />
+      <BlogHomeThree />
+      <GalleryOneThree />
+      {/* <Sponsors title='homeThree' /> */}
     </Layout>
   );
-}
+};
+
+export default HomeThreePage;

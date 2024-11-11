@@ -29,7 +29,7 @@ const AboutThree = () => {
                 </h2>
               </div>
               <div className='about-three__text'>{text}</div>
-              <ul className='about-three__list list-unstyled'>
+              {/* <ul className='about-three__list list-unstyled'>
                 {lists.map((list) => (
                   <li
                     key={list.id}
@@ -44,7 +44,7 @@ const AboutThree = () => {
                     <p className='about-three__list__text'>{list.text}</p>
                   </li>
                 ))}
-              </ul>
+              </ul> */}
             </div>
           </Col>
           <Col md={12} lg={7}>

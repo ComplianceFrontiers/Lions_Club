@@ -7,19 +7,19 @@ const sliderTwoData = [
     id: 1,
     bg: bg1,
     title: "Charity",
-    text: "Every good act is a",
+    text: "Empowering Community, Celebrating Culture,Inspiring Leaders",
   },
   {
     id: 2,
     bg: bg2,
     title: "Charity",
-    text: "Every good act is a",
+    text: "Unite, Serve, and Celebrate with Delaware Valley Lions Club",
   },
   {
     id: 3,
     bg: bg3,
     title: "Charity",
-    text: "Every good act is a",
+    text: "Building a Brighter Future through Service, Leadership, and Heritage",
   },
 ];
 

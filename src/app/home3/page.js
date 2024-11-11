@@ -1,5 +1,4 @@
 import AboutFour from "@/components/AboutFour/AboutFour";
-import AboutThree from "@/components/AboutThree/AboutThree";
 import BlogHomeThree from "@/components/BlogHomeThree/BlogHomeThree";
 import CtaOne from "@/components/CtaOne/CtaOne";
 import DonationHomeThree from "@/components/DonationHomeThree/DonationHomeThree";
@@ -22,7 +21,7 @@ const HomeThreePage = () => {
       <AboutFour />
       <CtaOne />
       <DonationHomeThree />
-      <AboutThree />
+     
       <BlogHomeThree />
       <GalleryOneThree />
       <Sponsors title='homeThree' />

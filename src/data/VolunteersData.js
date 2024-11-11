@@ -8,13 +8,13 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 const volunteersData = {
-  tagLine: "Ready to help you",
-  title: "Happy volunteers",
+  tagLine: "We are here to Serve",
+  title: "Our Leadership Team",
   volunteersDataCards: [
     {
       id: 1,
-      title: "Sarah albert",
-      designations: "Volunteers",
+      title: "Kaushik Majumdar",
+      designations: "Treasurer",
       socials: [
         { id: 1, icon: faTwitter },
         { id: 2, icon: faFacebook },
@@ -25,8 +25,8 @@ const volunteersData = {
     },
     {
       id: 2,
-      title: "Mike hardson",
-      designations: "Volunteers",
+      title: "Pratyush Majumdar",
+      designations: "President-Future Leaders",
       socials: [
         { id: 1, icon: faTwitter },
         { id: 2, icon: faFacebook },
@@ -37,8 +37,8 @@ const volunteersData = {
     },
     {
       id: 3,
-      title: "Aleesha brown",
-      designations: "Volunteers",
+      title: "Siddharth Bose",
+      designations: "Vice President-Future Leaders",
       socials: [
         { id: 1, icon: faTwitter },
         { id: 2, icon: faFacebook },

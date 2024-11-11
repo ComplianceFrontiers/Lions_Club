@@ -34,7 +34,7 @@ const Footer = () => {
               </div>
             </Col>
 
-            <Col
+            {/* <Col
               sm={12}
               ms={6}
               lg={6}
@@ -78,7 +78,7 @@ const Footer = () => {
                   ))}
                 </ul>
               </div>
-            </Col>
+            </Col> */}
 
             <Col
               sm={12}

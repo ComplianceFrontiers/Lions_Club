@@ -56,7 +56,7 @@ const AboutOne = () => {
                   </li>
                 ))}
               </ul>
-              <div className='about-one__tagline'>{aboutTagline}</div>
+              {/* <div className='about-one__tagline'>{aboutTagline}</div> */}
               <p className='about-one__text'>{text}</p>
               <div className='about-one__meta clearfix'>
                 <Image src={metaImage} alt='' />

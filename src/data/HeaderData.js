@@ -19,55 +19,55 @@ const navItems = [
     name: "Home",
     href: "/",
     subNavItems: [
-      {
-        id: 1,
-        name: "Home One",
-        href: "/",
-      },
-      {
-        id: 2,
-        name: "Home Two",
-        href: "/home2",
-      },
-      {
-        id: 3,
-        name: "Home Three",
-        href: "/home3",
-      },
-      {
-        id: 4,
-        name: "Header Styles",
-        href: "/",
-        subItems: [
-          {
-            id: 1,
-            name: "Header One",
-            href: "/",
-          },
-          { id: 2, name: "Header Two", href: "/home2" },
-          { id: 3, name: "Header Three", href: "/home3" },
-        ],
-      },
+      // {
+      //   id: 1,
+      //   name: "Home One",
+      //   href: "/",
+      // },
+      // {
+      //   id: 2,
+      //   name: "Home Two",
+      //   href: "/home2",
+      // },
+      // {
+      //   id: 3,
+      //   name: "Home Three",
+      //   href: "/home3",
+      // },
+      // {
+      //   id: 4,
+      //   name: "Header Styles",
+      //   href: "/",
+      //   subItems: [
+      //     {
+      //       id: 1,
+      //       name: "Header One",
+      //       href: "/",
+      //     },
+      //     { id: 2, name: "Header Two", href: "/home2" },
+      //     { id: 3, name: "Header Three", href: "/home3" },
+      //   ],
+      // },
     ],
   },
   {
     id: 2,
-    name: "Pages",
-    href: "#",
+    name: "About Us",
+    href: "/about",
     subNavItems: [
-      { id: 1, name: "About us", href: "/about" },
-      { id: 2, name: "Our volunteer", href: "/volunteer" },
+      // { id: 1, name: "About us", href: "/about" },
+      // { id: 2, name: "Our volunteer", href: "/volunteer" },
     ],
   },
-  {
-    id: 3,
-    name: "Donations",
-    href: "/donations",
-    subNavItems: [
-      { id: 1, name: "Donations", href: "/donations" },
-      { id: 2, name: "Donations details", href: "/donations-details" },
-    ],
-  },
+  // {
+  //   id: 3,
+  //   name: "Donations",
+  //   href: "/donations",
+  //   subNavItems: [
+  //     { id: 1, name: "Donations", href: "/donations" },
+  //     { id: 2, name: "Donations details", href: "/donations-details" },
+  //   ],
+  // },
 
   {
     id: 4,
@@ -87,18 +87,18 @@ const navItems = [
       { id: 2, name: "Gallery Details", href: "/gallery-details" },
     ],
   },
-  {
-    id: 6,
-    name: "Blog",
-    href: "/blog",
-    subNavItems: [
-      { id: 1, name: "Blog", href: "/blog" },
-      { id: 2, name: "Blog Details", href: "/blog-details" },
-    ],
-  },
+  // {
+  //   id: 6,
+  //   name: "Blog",
+  //   href: "/blog",
+  //   subNavItems: [
+  //     { id: 1, name: "Blog", href: "/blog" },
+  //     { id: 2, name: "Blog Details", href: "/blog-details" },
+  //   ],
+  // },
   {
     id: 7,
-    name: "Contact",
+    name: "Connect",
     href: "/contact",
     subNavItems: [],
   },

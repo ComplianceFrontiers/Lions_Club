@@ -7,6 +7,8 @@ import Sponsors from "@/components/Sponsors/Sponsors";
 import TestimonialOne from "@/components/TestimonialOne/TestimonialOne";
 import Volunteers from "@/components/Volunteers/Volunteers";
 import React from "react";
+import AboutThree from "@/components/AboutThree/AboutThree";
+
 
 export const metadata = {
   title: "About Page || Paroti || Non Profit Charity Nextjs Template",
@@ -17,10 +19,12 @@ const page = () => {
   return (
     <Layout>
       <PageHeader title='About Us' />
+       <AboutThree />
       <AboutOne />
-      <Sponsors />
-      <CtaOne page={true} />
-      <FunFactOne />
+      {/* <Sponsors /> */}
+     
+      {/* <CtaOne page={true} /> */}
+      {/* <FunFactOne /> */}
       <Volunteers />
       <TestimonialOne page={true} />
     </Layout>

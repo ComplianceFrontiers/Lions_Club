@@ -6,14 +6,14 @@ import donation5 from "@/assets/images/donations/donations-1-5.jpg";
 import donation6 from "@/assets/images/donations/donations-1-6.jpg";
 
 const donationCarouserData = {
-  tagLine: "Start donating them",
-  title: "Find popular causes",
+  tagLine: "Join us in our endeavor",
+  title: "Discover Our Upcoming Events and Join Us in Making a Difference",
   carouselData: [
     {
       id: 1,
       image: donation1,
-      category: "Medical",
-      title: "Your little help can heal their pains",
+      category: "Future Leaders",
+      title: "Launching the Path to Leadership",
       text: "Aellentesque porttitor lacus quis enim varius sed efficitur...",
       count: "36",
       amounts: [

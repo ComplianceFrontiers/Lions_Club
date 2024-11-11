@@ -87,12 +87,12 @@ const DonationHomeThree = () => {
                   </h3>
 
                   <p className='donations-card__text'>{carousel.text}</p>
-                  <Progress percent={carousel.count} />
+                  {/* <Progress percent={carousel.count} /> */}
 
                   <div className='donations-card__amount'>
                     {carousel.amounts?.map((amount) => (
                       <p key={amount.id}>
-                        <span>${amount.amount}</span> {amount.desc}
+                        <span>{amount.amount}</span> {amount.desc}
                       </p>
                     ))}
                   </div>

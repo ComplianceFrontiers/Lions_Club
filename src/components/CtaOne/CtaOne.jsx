@@ -26,17 +26,19 @@ const CtaOne = ({ page }) => {
       <Container className='text-center'>
         <div className='sec-title'>
           <p className='sec-title__tagline'>
-            We’re here to support poor people
+          We’re here to uplift and support the Indian
+          diaspora
           </p>
 
           <h2 className='sec-title__title'>
-            Fundraising for the people and <br />
-            <span>causes</span> you care about
+          Strengthening Bonds, Celebrating Heritage,
+Empowering the Indian Diaspora in the Delaware
+Valley
           </h2>
         </div>
 
-        <Link className='thm-btn cta-one__btn' href='donations'>
-          <span>Start donating thAem</span>
+        <Link className='thm-btn cta-one__btn' href='gallery'>
+          <span>View Our Activities</span>
         </Link>
       </Container>
     </section>
