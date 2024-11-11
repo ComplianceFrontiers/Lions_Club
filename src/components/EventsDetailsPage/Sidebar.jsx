@@ -12,22 +12,23 @@ const Sidebar = () => {
         <div className='events-details__sidebar__info'>
           <p>
             <span>Starting time:</span>
-            8:00 am to 2:00 pm
+            9:00 am to 2:00 pm
           </p>
           <p>
             <span>Date:</span>
-            20 August, 2022
+            22 September, 2024
           </p>
           <p>
             <span>Categroy:</span>
-            <a href='#'>Health</a>, <a href='#'>Charity</a>
+            <a href='#'>Future Leaders</a>
+            {/* , <a href='#'>Charity</a> */}
           </p>
-          <p>
+          {/* <p>
             <span>Website:</span>
             <a href='#'>www.example.com</a>
-          </p>
+          </p> */}
           <p>
-            <span>Location:</span>8 Street, San Marcos London D29, UK
+            <span>Location:</span>200 Hutchinson Rd, Robbinsville Twp, NJ 08691
           </p>
         </div>
       </div>

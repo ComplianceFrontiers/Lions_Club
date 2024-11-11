@@ -26,8 +26,8 @@ const EventDetailsPage = () => {
 
               <h4>{titleTwo}</h4>
               <p>{text3}</p>
-              <Link href='contact' className='thm-btn events-details__btn'>
-                <span>Register your seat</span>
+              <Link href='gallery' className='thm-btn events-details__btn'>
+                <span>Visit our Gallery</span>
               </Link>
             </div>
           </Col>
