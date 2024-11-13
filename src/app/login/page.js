@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client"; // This should be the very first line in your file
 
 import React, { useState } from 'react';
