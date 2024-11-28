@@ -23,7 +23,7 @@ const HeaderTwo = () => {
       className={`main-header main-header--three ${pathname === "/home2" ? "main-header--two" : ""
         }`}
     >
-      <Topbar />
+      {/* <Topbar /> */}
       <nav
         className={
           scrollTop
@@ -42,16 +42,16 @@ const HeaderTwo = () => {
           </ul>
 
           <div className='main-menu__right'>
-            <div
+            {/* <div
               onClick={toggleSearch}
               style={{ cursor: "pointer" }}
               className='main-header__btn search-toggler'
             >
               <i className='paroti-icon-magnifying-glass'></i>
-            </div>
-            <Link href='donations' className='main-header__btn'>
+            </div> */}
+            {/* <Link href='donations' className='main-header__btn'>
               <i className='paroti-icon-shopping-cart'></i>
-            </Link>
+            </Link> */}
             <Link
               onClick={handleToggle}
               href=''

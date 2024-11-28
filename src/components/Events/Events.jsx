@@ -20,7 +20,7 @@ const Events = () => {
                     src={data.image}
                     className='events-card__image--hover'
                     alt=''
-                  />
+                  />vcj
                 </div>
 
                 <div className='events-card__content'>

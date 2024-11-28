@@ -73,10 +73,11 @@ const SliderTwo = () => {
                 ></div>
 
                 <Container>
+                  <h2 className='slider-one__title'>{data.title}</h2>
+                  
                   <p className='slider-one__text'>{data.text}</p>
 
-                  <h2 className='slider-one__title'>{data.title}</h2>
-
+                  
                   <div className='slider-one__btns'>
                     <Link href='about' className='thm-btn slider-one__btn'>
                       <span>Discover More</span>{" "}

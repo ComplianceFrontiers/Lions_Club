@@ -55,8 +55,8 @@ const BlogHomeThree = () => {
     <section className='sec-pad-top blog-home-3'>
       <Container>
         <div className='sec-title text-center'>
-          <p className='sec-title__tagline'>{tagLine}</p>
-          <h2 className='sec-title__title'>{title}</h2>
+          {/* <p className='sec-title__tagline'>{tagLine}</p>
+          <h2 className='sec-title__title'>{title}</h2> */}
         </div>
         <div className='blog-carousel'>
           <TinySlider

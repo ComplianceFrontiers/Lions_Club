@@ -37,7 +37,7 @@ Valley
           </h2>
         </div>
 
-        <Link className='thm-btn cta-one__btn' href='gallery'>
+        <Link className='thm-btn cta-one__btn' href='events'>
           <span>View Our Activities</span>
         </Link>
       </Container>
