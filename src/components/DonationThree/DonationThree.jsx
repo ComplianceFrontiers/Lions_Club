@@ -1,14 +1,37 @@
 import donationThreeData from "@/data/DonationThree";
 import Image from "next/image";
 import Link from "next/link";
+import { Fragment } from "react";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import aboutFourData from "@/data/AboutFourData";
 
 const DonationThree = () => {
   const { cardData, ctaTwo } = donationThreeData;
+  const {
+    aboutShape,
+    tagLine,
+    title,
+    aboutImage,
+    icon,
+    link,
+    text,
+    lists,
+    videoId,
+  } = aboutFourData;
   return (
     <section className='sec-pad-top'>
       <Container>
+      <div className='sec-title text-center'>
+          <p className='sec-title__tagline'>{tagLine}</p>
+          <h2 className='sec-title__title'>
+            {title.split("\n").map((t, i) => (
+              <Fragment key={i}>
+                {t} <br />
+              </Fragment>
+            ))}
+          </h2>
+        </div>
         <Row className='gutter-y-30'>
           {cardData.map((card) => (
             <Col

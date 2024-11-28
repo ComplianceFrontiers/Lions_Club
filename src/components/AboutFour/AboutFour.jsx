@@ -29,7 +29,7 @@ const AboutFour = () => {
       />
 
       <Container>
-        <div className='sec-title text-center'>
+        {/* <div className='sec-title text-center'>
           <p className='sec-title__tagline'>{tagLine}</p>
           <h2 className='sec-title__title'>
             {title.split("\n").map((t, i) => (
@@ -38,7 +38,7 @@ const AboutFour = () => {
               </Fragment>
             ))}
           </h2>
-        </div>
+        </div> */}
 
         <Row className='gutter-y-60'>
           <Col md={12} lg={6}>

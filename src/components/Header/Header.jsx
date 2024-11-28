@@ -29,7 +29,7 @@ const Header = () => {
           : ""
         }`}
     >
-      <Topbar />
+      {/* <Topbar /> */}
       {/* className={'main-menu sticky-header'} */}
       <nav
         className={
@@ -77,17 +77,17 @@ const Header = () => {
                 ></FontAwesomeIcon>
               </i>
             </Link>
-            <div
+            {/* <div
               style={{ cursor: "pointer" }}
               onClick={() => toggleSearch()}
               href=''
               className='main-header__btn search-toggler'
             >
               <i className='paroti-icon-magnifying-glass'></i>
-            </div>
-            <Link href='donations' className='main-header__btn'>
+            </div> */}
+            {/* <Link href='donations' className='main-header__btn'>
               <i className='paroti-icon-shopping-cart'></i>
-            </Link>
+            </Link> */}
             <Link
               href='#'
               onClick={handleToggle}
