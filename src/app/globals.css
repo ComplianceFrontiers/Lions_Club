@@ -224,6 +224,7 @@ img {
 }
 
 .thm-btn {
+  border-radius: 10px;
   border: none;
   outline: none;
   text-decoration: none;
