@@ -54,7 +54,7 @@ const DonationHomeThree = () => {
         data-aos-duration='1500'
       ></div>
       <Container>
-        <div className='sec-title text-center'>
+        <div className='sec-title'>
           <p className='sec-title__tagline'>{tagLine}</p>
 
           <h2 className='sec-title__title'>{title}</h2>
