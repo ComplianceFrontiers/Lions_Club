@@ -42,6 +42,8 @@ const AboutFour = () => {
 
         <Row className='gutter-y-60'>
           <Col md={12} lg={6}>
+          <div className='about-four__content__text'>{text}</div>
+
             <div
               className='about-four__image'
               data-aos='fade-right'
@@ -62,7 +64,6 @@ const AboutFour = () => {
           </Col>
           <Col md={12} lg={6}>
             <div className='about-four__content'>
-              <div className='about-four__content__text'>{text}</div>
 
               <ul className='list-unstyled about-four__list'>
                 {lists.map((list) => (
