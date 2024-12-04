@@ -64,10 +64,14 @@ const GalleryOneThree = () => {
     <section style={sectionStyle}>
       <Container fluid>
         <TinySlider className='gallery-one__carousel' settings={settings}>
+          
           {galleryThreeData.map((galleryOne, index) => (
-              // <div className='gallery-card__image'>
+                        <div key={galleryOne.id} className='item'>
+
+              <div className='gallery-card__image'>
                 <Image className='img-h-auto' src={galleryOne.image} alt='' />
-              // </div>
+            </div>
+            </div>
           ))}
         </TinySlider>
       </Container>
