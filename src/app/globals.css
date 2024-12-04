@@ -692,6 +692,7 @@ img {
 */
 .slider-one {
   background-color: var(--paroti-black, #144047);
+  padding-top: 12rem;
 }
 
 .slider-one__item {
@@ -989,14 +990,12 @@ img {
   background-repeat: repeat-x;
   background-position: top center;
   background-color: rgba(0, 0, 0, 0);
-  padding-top: 114px;
 }
 
 @media (min-width: 992px) {
   .slider-two {
     padding-left: 30px;
     padding-right: 30px;
-    margin-top: 42px;
   }
 }
 
