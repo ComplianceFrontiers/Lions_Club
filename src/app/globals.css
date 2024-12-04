@@ -3902,7 +3902,7 @@ img {
 }
 
 .donations-card__content {
-  height: 650px;
+  /* height: 650px; */
   padding: 40px;
   background-color: #fff;
   -webkit-box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.07);
@@ -4073,7 +4073,7 @@ img {
 }
 
 .donations-details .donations-card__content {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .donations-details .donations-card__title {
