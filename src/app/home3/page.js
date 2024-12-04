@@ -21,7 +21,6 @@ const HomeThreePage = () => {
       <AboutFour />
       <CtaOne />
       <DonationHomeThree />
-     
       <BlogHomeThree />
       <GalleryOneThree />
       <Sponsors title='homeThree' />

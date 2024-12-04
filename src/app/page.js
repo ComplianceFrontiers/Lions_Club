@@ -19,7 +19,6 @@ const HomeThreePage = () => {
       <SliderTwo />
       <AboutFour />
       <DonationThree />
-      
       <CtaOne />
       <DonationHomeThree />
       <BlogHomeThree />

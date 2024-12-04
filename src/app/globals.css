@@ -1124,7 +1124,7 @@ img {
   background-color: var(--paroti-black, #df5311);
   padding-top: 9.375rem;
   padding-bottom: 9.375rem;
-  text-align: right;
+  text-align: center;
 }
 
 .page-header__title {
