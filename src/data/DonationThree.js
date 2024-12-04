@@ -24,7 +24,7 @@ const donationThreeData = {
       id: 2,
       link: "donations-details",
       image: image2,
-      text: "Our Future Leaders program is designed to develop essential skills in youth ages 12-18 through leadership workshops and community service projects.",
+      text: "Designed to develop essential skills in youth ages 12-18 through leadership workshops and community service projects.",
       icon: "paroti-icon-patient",
       title: "Future Leaders Program",
       accentColor: "var(--paroti-base)",

@@ -6,9 +6,11 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { Container } from "react-bootstrap";
 import Modal from "../GalleryOne/Modal";
+
 const TinySlider = dynamic(() => import("tiny-slider-react"), {
   ssr: false,
 });
+
 const settings = {
   lazyload: true,
   nav: false,
@@ -90,29 +92,19 @@ const GalleryOneThree = () => {
   }, []);
 
   if (!mounted) return null;
+
+  const sectionStyle = {
+    padding: "3.5rem 0",
+  };
+
   return (
-    <section className='gallery-one gallery-one--home-3'>
+    <section style={sectionStyle}>
       <Container fluid>
         <TinySlider className='gallery-one__carousel' settings={settings}>
           {galleryThreeData.map((galleryOne, index) => (
-            <div key={galleryOne.id} className='item'>
-              <div className='gallery-card'>
-                <div className='gallery-card__image'>
-                  <Image className='img-h-auto' src={galleryOne.image} alt='' />
-                </div>
-
-                <div className='gallery-card__content'>
-                  <a className='img-popup'>
-                    <i>
-                      <FontAwesomeIcon
-                        icon={galleryOne.icon}
-                        onClick={() => handleClick(galleryOne, index)}
-                      />
-                    </i>
-                  </a>
-                </div>
+              <div className='gallery-card__image'>
+                <Image className='img-h-auto' src={galleryOne.image} alt='' />
               </div>
-            </div>
           ))}
         </TinySlider>
         {clickedImg && (
