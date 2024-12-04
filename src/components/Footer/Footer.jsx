@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <footer
       className='site-footer'
-      style={{ backgroundImage: `url(${footerBg.src})` }}
+      style={{ backgroundColor: "#df5311" }}
     >
       <div className='site-footer__top'>
         <Container>

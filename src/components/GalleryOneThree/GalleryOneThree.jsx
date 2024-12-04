@@ -48,44 +48,7 @@ const GalleryOneThree = () => {
   const [clickedImg, setClickedImg] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(null);
 
-  const handleClick = (item, index) => {
-    setCurrentIndex(index);
-    setClickedImg(item.image);
-  };
 
-  const handelRotationRight = () => {
-    const totalLength = galleryThreeData.length;
-    if (currentIndex + 1 >= totalLength) {
-      setCurrentIndex(0);
-      const newUrl = galleryThreeData[0].image;
-      setClickedImg(newUrl);
-      return;
-    }
-    const newIndex = currentIndex + 1;
-    const newUrl = galleryThreeData.filter((item) => {
-      return galleryThreeData.indexOf(item) === newIndex;
-    });
-    const newItem = newUrl[0].image;
-    setClickedImg(newItem);
-    setCurrentIndex(newIndex);
-  };
-
-  const handelRotationLeft = () => {
-    const totalLength = galleryThreeData.length;
-    if (currentIndex === 0) {
-      setCurrentIndex(totalLength - 1);
-      const newUrl = galleryThreeData[totalLength - 1].image;
-      setClickedImg(newUrl);
-      return;
-    }
-    const newIndex = currentIndex - 1;
-    const newUrl = galleryThreeData.filter((item) => {
-      return galleryThreeData.indexOf(item) === newIndex;
-    });
-    const newItem = newUrl[0].image;
-    setClickedImg(newItem);
-    setCurrentIndex(newIndex);
-  };
 
   useEffect(() => {
     setMounted(true);
@@ -102,21 +65,11 @@ const GalleryOneThree = () => {
       <Container fluid>
         <TinySlider className='gallery-one__carousel' settings={settings}>
           {galleryThreeData.map((galleryOne, index) => (
-              <div className='gallery-card__image'>
+              // <div className='gallery-card__image'>
                 <Image className='img-h-auto' src={galleryOne.image} alt='' />
-              </div>
+              // </div>
           ))}
         </TinySlider>
-        {clickedImg && (
-          <Modal
-            clickedImg={clickedImg}
-            handelRotationRight={handelRotationRight}
-            setClickedImg={setClickedImg}
-            handelRotationLeft={handelRotationLeft}
-            currentIndex={currentIndex}
-            length={galleryThreeData.length}
-          />
-        )}
       </Container>
     </section>
   );
