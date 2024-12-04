@@ -709,7 +709,7 @@ img {
   background-size: cover;
   background-position: center center;
   /* background-blend-mode: color-dodge; */
-  background-color: var(--paroti-black, #df5311);
+  /* background-color: var(--paroti-black, #df5311); */
   /* opacity: 0.4; */
 }
 
@@ -1009,7 +1009,7 @@ img {
 }
 
 .slider-two .slider-one__image {
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 .slider-two .slider-one__item {
@@ -4877,7 +4877,7 @@ img {
 
 .testimonials-one__gallery img {
   position: absolute;
-  opacity: 0.5;
+  /* opacity: 0.5; */
   -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07);
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07);
   -webkit-animation-duration: 4s;
