@@ -17,8 +17,9 @@ const HomeThreePage = () => {
   return (
     <Layout pageTitle='Home Two'>
       <SliderTwo />
-      <DonationThree />
       <AboutFour />
+      <DonationThree />
+      
       <CtaOne />
       <DonationHomeThree />
       <BlogHomeThree />

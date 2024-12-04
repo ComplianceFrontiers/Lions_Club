@@ -1120,13 +1120,12 @@ img {
 
 /*
   // Page Header
-*/
-.page-header {
+*/.page-header {
   background-size: cover;
   background-color: var(--paroti-black, #144047);
   padding-top: 9.375rem;
   padding-bottom: 9.375rem;
-  text-align: center;
+  text-align: right;
 }
 
 .page-header__title {
@@ -1153,13 +1152,10 @@ img {
 
 .breadcrumb-one {
   margin: 0;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  display: inline-flex; /* Use inline-flex to allow the list to align horizontally */
   position: relative;
   top: -12px;
+  justify-content: flex-end; /* Ensure breadcrumbs align to the right */
 }
 
 .breadcrumb-one li {
@@ -1176,11 +1172,17 @@ img {
 .breadcrumb-one li span,
 .breadcrumb-one li a {
   color: inherit;
-  -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
 
-/*
+/* Additional styling to right-align other header elements if needed */
+.page-header .container {
+  display: flex;
+  justify-content: flex-end; /* Aligns everything inside the container to the right */
+  align-items: center; /* Align vertically if necessary */
+  flex-direction: column;
+}
+
   // Main Menu
 */
 .main-header {
