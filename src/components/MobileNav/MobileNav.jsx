@@ -21,7 +21,7 @@ const MobileNav = () => {
     <div className={`mobile-nav__wrapper ${isExpanded ? "expanded" : ""}`}>
       <div
         onClick={handleToggle}
-        className='mobile-nav__overlay mobile-nav__toggler'
+        // className='mobile-nav__overlay mobile-nav__toggler'
       ></div>
       <div className='mobile-nav__content'>
         <a
