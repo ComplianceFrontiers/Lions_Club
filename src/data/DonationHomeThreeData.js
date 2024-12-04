@@ -11,7 +11,7 @@ const donationHomeThreeData = {
       image: donation1,
       category: "Future Leaders",
       title: "Launching the Path to Leadership",
-      text: "Future Leaders is a youth program dedicated to shaping confident, compassionate leaders. Through hands-onn learning and community service, we empowern young minds to lead with purpose and integrity.",
+      text: "Future Leaders is a youth program dedicated to shaping confident, compassionate leaders. Through hands-onn learning and community service, we empowern young minds to lead with purpose and integrity with Love.",
       count: "36",
       amounts: [
         {
@@ -53,7 +53,7 @@ const donationHomeThreeData = {
       image: donation3,
       category: "Service Orientation",
       title: "Chess with Cops: A Fundraising Tournament for Community Unity",
-      text: "Join us for Chess with Cops, a unique fundraising event that brings together law enforcement and the community through the game of chess. Support a great cause while enjoying friendly competition and building stronger connections&quot;",
+      text: "Join us for Chess with Cops, a unique fundraising event that brings together law enforcement and the community through the game of chess. Support a great cause while enjoying friendly competition and building connections",
       count: "36",
       amounts: [
         {

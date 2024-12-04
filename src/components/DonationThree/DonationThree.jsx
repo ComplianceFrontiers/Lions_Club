@@ -20,9 +20,9 @@ const DonationThree = () => {
     videoId,
   } = aboutFourData;
   return (
-    <section className='sec-pad-top'>
+    <section className='sec-pad-top' style={{ marginBottom: "100px" }}>
       <Container>
-      <div className='sec-title text-center'>
+      <div className='sec-title text-center' style={{ marginBottom: "100px" }}>
           <p className='sec-title__tagline'>{tagLine}</p>
           <h2 className='sec-title__title'>
             {title.split("\n").map((t, i) => (
