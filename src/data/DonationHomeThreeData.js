@@ -4,7 +4,7 @@ import donation3 from "@/assets/images/donations/donations-1-3.jpg";
 
 const donationHomeThreeData = {
   tagLine: "Join us in our endeavor",
-  title: "Discover Our Upcoming Events and Join Us in Making a Difference",
+  title: "Discover Our Upcoming Events",
   carouselData: [
     {
       id: 1,
