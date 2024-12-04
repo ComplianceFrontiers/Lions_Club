@@ -95,10 +95,13 @@ const DonationHomeThree = () => {
                         <span>{amount.amount}</span> {amount.desc}
                       </p>
                     ))}
+                    </div>
                     <button className="donations-card__know-more-btn">Know More</button>
-                  </div>
 
-                </div>
+                    </div>
+                  
+
+                
               </div>
             </div>
           ))}
