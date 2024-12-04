@@ -74,7 +74,7 @@ const Footer = () => {
               data-aos-duration='1500'
               data-aos-delay='400'
             >
-              <div className='site-footer__widget site-footer__widget__cta'>
+              {/* <div className='site-footer__widget site-footer__widget__cta'>
                 <h3 className='site-footer__widget__title'>
                   <span>Raise Money and help them</span>
                 </h3>
@@ -88,7 +88,7 @@ const Footer = () => {
                     <FontAwesomeIcon icon={faHeart} />
                   </i>
                 </Link>
-              </div>
+              </div> */}
             </Col>
           </Row>
         </Container>

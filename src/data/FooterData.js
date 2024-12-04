@@ -19,7 +19,7 @@ const social = [
 const footerData = {
   footerBg,
   logo,
-  about: "60 Broklyn Golden Street, New York United States of America",
+  about: "Delaware | New Jersey | Pennsylvania",
 
   social,
   year: new Date().getFullYear(),
