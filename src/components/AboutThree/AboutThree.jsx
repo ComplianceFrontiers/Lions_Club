@@ -6,13 +6,13 @@ import { Col, Container, Row } from "react-bootstrap";
 const AboutThree = () => {
   const { image, lists, tagLine, text, title } = aboutThreedata;
   return (
-    <section className='about-three'>
-      <div
+    <section className='sec-pad-top'>
+      {/* <div
         className='about-three__shape'
         data-aos='slide-right'
         data-aos-easing='linear'
         data-aos-duration='1500'
-      ></div>
+      ></div> */}
 
       <Container>
         <Row className='gutter-y-60'>

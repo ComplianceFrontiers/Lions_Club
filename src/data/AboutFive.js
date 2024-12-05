@@ -36,7 +36,7 @@ const items = [
 
 const aboutFiveData = {
   tagLine: "Ready to help us",
-  title: "We believe that we can \nsave more lifes",
+  title: "We believe in Inspiring \n Youth Leadership through Service",
   subTitle:
     "There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.",
   blockquote:

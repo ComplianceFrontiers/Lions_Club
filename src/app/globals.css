@@ -160,11 +160,11 @@ img {
 }
 
 .gutter-y-30 {
-  --bs-gutter-y: 30px;
+  --bs-gutter-y: 10px;
 }
 
 .gutter-y-60 {
-  --bs-gutter-y: 60px;
+  --bs-gutter-y: 10px;
 }
 
 .google-map iframe {
@@ -355,6 +355,7 @@ img {
   font-weight: 500;
   line-height: 1.2em;
   margin-bottom: 7px;
+  margin-top: 20px;
 }
 
 .sec-title__tagline::after {
@@ -6258,7 +6259,7 @@ img {
 
 .about-three__text {
   margin-top: 5px;
-  padding-bottom: 31px;
+  padding-bottom: 0px;
 }
 
 .about-three__image {
