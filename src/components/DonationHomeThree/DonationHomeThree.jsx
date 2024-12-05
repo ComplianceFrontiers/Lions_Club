@@ -46,7 +46,7 @@ const DonationHomeThree = () => {
   }
 
   return (
-    <section className='sec-pad-top sec-pad-bottom donation-home-3'>
+    <section className='sec-pad-top donation-home-3'>
       <div
         className='donation-home-3__shape '
         data-aos='slide-dowm'

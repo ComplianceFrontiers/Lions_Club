@@ -21,12 +21,12 @@ const AboutFour = () => {
     videoId,
   } = aboutFourData;
   return (
-    <section className='sec-pad-top sec-pad-bottom about-four'>
-      <Image
+    <section className="sec-pad-top">
+      {/* <Image
         src={aboutShape}
         alt=''
         className='float-bob-x about-four__shape'
-      />
+      /> */}
 
       <Container>
         {/* <div className='sec-title text-center'>
@@ -81,7 +81,7 @@ const AboutFour = () => {
           </Col>
         </Row>
       </Container>
-      <VideoModal isOpen={isOpen} setOpen={setOpen} id={videoId} />
+      {/* <VideoModal isOpen={isOpen} setOpen={setOpen} id={videoId} /> */}
     </section>
   );
 };
