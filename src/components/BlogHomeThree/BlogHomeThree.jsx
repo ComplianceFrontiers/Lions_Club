@@ -52,27 +52,27 @@ const BlogHomeThree = () => {
 
   if (!mounted) return null;
   return (
-    <section className='sec-pad-top blog-home-3'>
+    <section className='blog-home-3 sec-pad-bottom'>
       <Container>
-        <div className='sec-title text-center'>
-          {/* <p className='sec-title__tagline'>{tagLine}</p>
-          <h2 className='sec-title__title'>{title}</h2> */}
-        </div>
-        <div className='blog-carousel'>
-          <TinySlider
+        {/* <div className='sec-title text-center'>
+          <p className='sec-title__tagline'>{tagLine}</p>
+          <h2 className='sec-title__title'>{title}</h2>
+        </div> */}
+        {/* <div className='blog-carousel'> */}
+          {/* <TinySlider
             settings={settings}
             className='thm-tns__carousel'
             id='blog-carousel-1'
           >
-            {/* {carouselData.map((carousel, index) => (
+            {carouselData.map((carousel, index) => (
               <SingleBlogHome
                 key={carousel.id}
                 carousel={carousel}
                 index={index}
               />
-            ))} */}
-          </TinySlider>
-        </div>
+            ))}
+          </TinySlider> */}
+        {/* </div> */}
       </Container>
     </section>
   );
