@@ -15,7 +15,7 @@ const testimonialOneData = {
   testi5,
   title: "What they’re \n talking about us",
   tagLine: "Our feedbacks",
-  text: "At the Delaware Valley Lions Club, we are proud of the impact we've made, but don't just take our word for it.\nHear from our members, supporters, and community partners who have experienced firsthand the power of unity, service, and cultural celebration.\nTheir stories reflect the heart of our mission and the positive change we’re creating together.",
+  text: "At the Delaware Valley Lions Club, we are proud of the impact we've made, but don't just take our word for it.\n \nHear from our members, supporters, and community partners who have experienced firsthand the power of unity, service, and cultural celebration.\n \nTheir stories reflect the heart of our mission and the positive change we’re creating together.",
   carouselData: [
     {
       id: 1,

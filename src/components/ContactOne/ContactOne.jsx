@@ -20,11 +20,11 @@ const ContactOne = () => {
       <Container>
         <Row className='gutter-y-60'>
           <Col lg={4}>
-            <div className='sec-title'>
+            <div className='sec-title '>
               <p className='sec-title__tagline'>{tagline}</p>
               <h2 className='sec-title__title'>{title}</h2>
             </div>
-            <p className='contact-one__text'>{text}</p>
+            <p className='contact-one__text sec-pad-top'>{text}</p>
             <div className='contact-one__social'>
               {socials.map((social) => (
                 <Link key={social.id} href={social.href}>

@@ -3581,7 +3581,7 @@ img {
   bottom: 0;
   left: 0;
   width: calc(100% - 30px);
-  background-color: rgba(var(--paroti-black-rgb, 20, 64, 71), 0.95);
+  background-color: #138808;
   padding: 30px;
 }
 
@@ -3641,7 +3641,7 @@ img {
 }
 
 .events-card__title {
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 800;
   color: #fff;
   letter-spacing: -0.04em;
@@ -4672,12 +4672,13 @@ img {
   // Volunteers
 */
 .volunteers-card {
-  --accent-color: var(--paroti-primary, #138999);
-  background-color: var(--accent-color);
+  background-color: var(--card-color, #138999);
   padding-left: 40px;
   padding-top: 40px;
   position: relative;
+  color: var(--text-color, #fff);
 }
+
 
 .volunteers-card__image img {
   max-width: 100%;
