@@ -51,7 +51,8 @@ const SliderTwo = () => {
   return (
     <section
       className='slider-one slider-two '
-      style={{ backgroundImage: `url(${bg.src})` }}
+      style={{ backgroundColor:"#df5311"}}
+      // style={{ backgroundImage: `url(${bg.src})` }}
     >
       <div className='position-relative overflow-hidden'>
         <div className='tns-controls'>
