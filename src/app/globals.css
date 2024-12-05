@@ -39,7 +39,7 @@
   --paroti-secondary-rgb: 253, 190, 68;
   --paroti-black: #df5311;
   --paroti-black-rgb: 20, 64, 71;
-  --paroti-dark: #002c33;
+  --paroti-dark: #4C9A2A;
   --paroti-dark-rgb: 0, 44, 51;
   --paroti-text: #768385;
   --paroti-gray: #f1f6f7;
@@ -251,7 +251,7 @@ img {
   height: 150%;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
-  background-color: #002c33;
+  background-color: #4C9A2A;
   -webkit-transition: 700ms cubic-bezier(0.52, 1.64, 0.37, 0.66);
   transition: 700ms cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
@@ -387,7 +387,7 @@ img {
   right: 0;
   bottom: 0;
   z-index: 99991;
-  background-color: var(--paroti-dark, #002c33);
+  background-color: var(--paroti-dark, #4C9A2A);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1505,7 +1505,7 @@ img {
   -ms-flex-align: center;
   align-items: center;
   padding-top: 10px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 @media (min-width: 992px) {
@@ -2075,7 +2075,7 @@ img {
 .site-footer__social a {
   width: 40px;
   height: 40px;
-  background-color: var(--paroti-dark, #002c33);
+  background-color: var(--paroti-dark, #4C9A2A);
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2131,7 +2131,7 @@ img {
   margin: 0;
   font-size: 15px;
   font-weight: 500;
-  color: #002c33;;
+  color: #4C9A2A;;
   /* margin-bottom: 10px; */
 }
 
@@ -2154,7 +2154,7 @@ img {
 
 .site-footer__widget__text {
   font-weight: 500;
-  color: #002c33;
+  color: #4C9A2A;
   font-size: 15px;
   line-height: 2em;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -2163,7 +2163,7 @@ img {
 .site-footer__widget__title {
   margin: 0;
   font-size: 20px;
-  color: #002c33;
+  color: #4C9A2A;
   font-weight: 800;
   margin-bottom: 40px;
 }
@@ -2195,7 +2195,7 @@ img {
 
 .site-footer__widget__contact li,
 .site-footer__widget__links li {
-  color: #002c33;
+  color: #4C9A2A;
   font-size: 15px;
   font-weight: 500;
   line-height: 2.4em;
@@ -2435,7 +2435,7 @@ img {
   overflow: hidden;
   overflow-y: auto;
   height: 100%;
-  background-color: var(--paroti-dark, #002c33);
+  background-color: var(--paroti-dark, #4C9A2A);
   -ms-overflow-style: none;
   scrollbar-width: none;
   padding: 30px 15px;
