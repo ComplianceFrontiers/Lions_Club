@@ -17,12 +17,12 @@ const donationHomeThreeData = {
         {
           id: 1,
           amount: "Date ",
-          desc: "(22-Sep-2024)",
+          desc: "22-Sep-2024",
         },
         {
           id: 2,
           amount: "Time",
-          desc: "(09:00A.M – 2:00 P.M )",
+          desc: "09:00A.M – 2:00 P.M",
         },
       ],
       accentColor: "",
@@ -38,12 +38,12 @@ const donationHomeThreeData = {
         {
           id: 1,
           amount: "Date",
-          desc: "(21-Dec-2024)",
+          desc: "21-Dec-2024",
         },
         {
           id: 2,
           amount: "Time",
-          desc: "(05:00P.M – 10:00 P.M )",
+          desc: "05:00P.M – 10:00 P.M ",
         },
       ],
       accentColor: "#8139e7",
@@ -59,12 +59,12 @@ const donationHomeThreeData = {
         {
           id: 1,
           amount: "Date",
-          desc: "(11-Jan-2024)",
+          desc: "11-Jan-2024",
         },
         {
           id: 2,
           amount: "Time",
-          desc: "(10:00P.M – 2:00 P.M )",
+          desc: "10:00P.M – 2:00 P.M ",
         },
       ],
       accentColor: "#fdbe44",
