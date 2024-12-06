@@ -17,22 +17,22 @@ const Footer = () => {
       <div className='site-footer__top'>
         <Container>
           <Row>
-            <Col
-              sm={12}
-              ms={6}
-              lg={6}
-              xl={3}
-              data-aos='fade-up'
-              data-aos-duration='1500'
-              data-aos-delay='000'
-            >
-              <div className='site-footer__widget site-footer__widget__about'>
-                <Link href='/' className='site-footer__widget__logo'>
-                  <Image src={logo} alt='' width={127} height={49} />
-                </Link>
-                <p className='site-footer__widget__text'>{about}</p>
-              </div>
-            </Col>
+          <Col
+  sm={12}
+  ms={6}
+  lg={6}
+  xl={3}
+>
+  <div className='site-footer__widget site-footer__widget__about'>
+    <div className="site-footer__widget__logo-and-text">
+      <Link href='/'>
+        <Image src={logo} alt='Logo' width={80} height={49} />
+      </Link>
+      <p className='site-footer__widget__text'>{about}</p>
+    </div>
+  </div>
+</Col>
+
 
             
             <Col
