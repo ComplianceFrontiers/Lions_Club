@@ -22,7 +22,7 @@ const DonationThree = () => {
   return (
     <section className='sec-pad-top' style={{ marginBottom: "100px" }}>
       <Container>
-      <div className='sec-title' style={{ marginBottom: "100px" }}>
+      <div className='sec-title' style={{ marginBottom: "30px" }}>
           <p className='sec-title__tagline'>{tagLine}</p>
           <h2 className='sec-title__title'>
             {title.split("\n").map((t, i) => (

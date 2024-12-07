@@ -21,7 +21,7 @@ const AboutOne = () => {
   } = aboutOneData;
   return (
     <section className=' about-one'>
-       <div className='sec-title'>
+       <div className='sec-title1'>
                 <p className='sec-title__tagline'>{tagLine}</p>
                 <h2 className='sec-title__title'>{title}</h2>
               </div>

@@ -21,7 +21,7 @@ const Volunteers = ({ page }) => {
     <section className="sec-pad-top sec-pad-bottom">
       <Container>
         {!page && (
-          <div className='sec-title text-center'>
+          <div className='sec-title2'>
             <p className='sec-title__tagline'>{tagLine}</p>
 
             <h2 className='sec-title__title'>{title}</h2>
