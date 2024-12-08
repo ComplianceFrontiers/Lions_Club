@@ -41,10 +41,6 @@ const Footer = () => {
               lg={6}
               xl={3}
               className='col-sm-12 col-md-6 col-lg-6 col-xl-3'
-              data-aos='fade-up'
-              data-aos-easing='linear'
-              data-aos-duration='1500'
-              data-aos-delay='300'
             >
               <div className='site-footer__widget'>
                 <h3 className='site-footer__widget__title'>Contact</h3>

@@ -1512,7 +1512,6 @@ img {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-top: 10px;
   padding-bottom: 10px;
 }
 
@@ -6494,7 +6493,7 @@ img {
   letter-spacing: -0.04em;
   margin: 0;
   position: relative;
-  top: -9px;
+  top: -15px;
 }
 
 .about-four__list__item {
