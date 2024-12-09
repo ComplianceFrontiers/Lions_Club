@@ -66,7 +66,7 @@ const DonationHomeThree = () => {
                 className='donations-card'
                 style={{ "--accent-color": carousel.accentColor }}
               >
-                <div className='donations-card__image'>
+                <div className='donations-card__image sec-pad-top'>
                   <Image
                     style={{
                       width: "100%",
