@@ -6,40 +6,47 @@ import { faCheckCircle, faPlay } from "@fortawesome/free-solid-svg-icons";
 const aboutFourData = {
   aboutShape,
   tagLine: "More about the DVLC",
-  title: "Serving the Delaware Valley \n with Pride and Heritage",
+  title: "Three potential pillars for DVLC \n align with our mission:",
   aboutImage,
   videoId: "CWCPovmNWK8",
   link: "https://www.youtube.com/watch?v=CWCPovmNWK8",
   icon: faPlay,
-  text: "DVLC is dedicated to empowering the Indian diaspora through community service, youth leadership, and celebrating the rich cultural diversity of India in the Delaware Valley.",
+  text: "DVLC is an international platform for the Leos of Lions International Members ( New Jersery , PA and Delaware) , committed to empowering the next generation of leaders and strengthening the Indian diaspora to unite as a vibrant and impactful community. Through a culture of thinking and action, we provide youth with opportunities to lead, serve, connect with nature, and showcase their talents. Rooted in the rich traditions of India, DVLC inspires young changemakers to embrace cultural pride while fostering unity and making a meaningful impact locally and globally.",
   lists: [
     {
       id: 1,
       icon: faCheckCircle,
-      title: "Vision Statement",
-      text: "Empowering the community through service, youth leadership, and celebration of India's cultural heritage in the Delaware Valley and beyond.",
+      title: "Mission Statement",
+      text: "To empower the Indian diaspora in the Delaware Valley by fostering community service, developing youth leadership, promoting a connection to nature, and providing platforms for young talents to shine, all while celebrating India’s rich cultural heritage and diversity.",
     },
     {
       id: 2,
       icon: faCheckCircle,
-      title: "Mission Statement",
-      text: "Uniting the Indian diaspora in the Delaware Valley through community service, leadership development, and celebrating cultural heritage with pride.",
+      title: "Vision Statement",
+      text: "To cultivate a thriving and empowered Indian community in the Delaware Valley, where youth are inspired to lead, engage with nature, and contribute to society through service and creativity, preserving and promoting the vibrant cultural legacy of India.",
     },
     {
       id: 3,
       icon: faCheckCircle,
-      title: "Goals",
+      title: "Goal Statement",
       text: (
         <>
-• Service Excellence
-<br />
-• Youth Empowerment
+          <strong>Our goals are to:</strong>
           <br />
-          • Cultural Celebration
           <br />
-          • Community Engagement          <br />
-          • Sustainable Growth        </>
+          • Provide Indian youth with enriched leadership opportunities through the Leos program, enabling them to take on impactful roles in service initiatives.
+          <br />
+          <br />
+          • Foster a connection to nature and environmental stewardship through experiential learning.
+          <br />
+          <br />
+          • Create platforms for youth to showcase their talents and creative expression.
+          <br />
+          <br />
+          • Promote cultural pride while nurturing the next generation of leaders committed to community service and sustainability.
+        </>
       ),
+      
     },
   ],
 };

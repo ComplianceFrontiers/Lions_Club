@@ -5,19 +5,29 @@ const aboutThreedata = {
   title: "Uniting Cultures, Empowering Communities, Celebrating Heritage",
   text: (
     <>
-      The Indian diaspora in the United States is rich in diversity, with regional communities contributing to a vibrant mosaic of traditions, languages, and customs.
+      <br />
+      <strong>Who We Are</strong>
       <br />
       <br />
-      While each community celebrates its unique heritage, these regional divides can sometimes create barriers to broader unity. At the Delaware Valley Lions Club (DVLC), we recognize the beauty of this diversity but also believe in the power of coming together as one.
+      DVLC is a dynamic, international platform created for the Leos of Lions International Members, dedicated to empowering the Indian diaspora in the Delaware Valley and beyond. Our mission is to inspire and equip the next generation of leaders through meaningful experiences in service, leadership, and cultural pride. Rooted in the vibrant traditions of India, DVLC serves as a bridge between generations, uniting the community to celebrate its shared heritage while fostering innovation and growth.
       <br />
       <br />
-      Our mission is to bridge these divides by fostering a sense of shared identity and purpose among the various Indian communities across Delaware, New Jersey, and Pennsylvania. We are dedicated to uniting people from different regions of India, creating a strong collective presence that celebrates our cultural inheritance while promoting the core values of Lions International—service, compassion, and community engagement.
+      <strong>What We Do</strong>
       <br />
       <br />
-      Through our initiatives, we bring together people from different backgrounds to celebrate Indian culture, provide service to those in need, and develop future leaders who are committed to making a positive impact. DVLC is more than just a club—it is a platform for collaboration, where we unite to serve, learn, and grow, all while honoring the rich cultural traditions that define us.
+      At DVLC, we focus on creating opportunities for youth to thrive. Our Leos program provides platforms for leadership development, community service, environmental stewardship, and creative expression. Our initiatives connect young individuals with their roots, helping them discover their potential while contributing to the betterment of their communities. By embracing a culture of thinking and action, we aim to shape young changemakers who are ready to lead with purpose and compassion.
       <br />
       <br />
-      Together, we can create a stronger, more inclusive community that reflects the true spirit of the Indian diaspora in the United States.
+      <strong>Why We Exist</strong>
+      <br />
+      <br />
+      We believe in the power of unity and the strength of cultural identity. DVLC is committed to strengthening the Indian diaspora by bringing people together to honor their heritage and collectively work towards building a vibrant, cohesive, and impactful community. Our goal is to nurture future generations who embody the values of service, leadership, and pride in their roots, ensuring that the legacy of India’s rich culture continues to thrive across borders.
+      <br />
+      <br />
+      <strong>Join Us</strong>
+      <br />
+      <br />
+      Whether you’re a young leader ready to take on challenges, a family seeking connection to your heritage, or someone passionate about making a difference, DVLC welcomes you to be a part of this transformative journey. Together, let’s empower the next generation, celebrate our culture, and create a brighter future for the Indian diaspora and the world.
       <br />
     </>
   ),
