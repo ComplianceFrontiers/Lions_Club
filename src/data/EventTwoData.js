@@ -35,11 +35,21 @@ const eventTwoData = {
     {
       id: 3,
       image: image3,
-      date: "11-Jan-2024",
+      date: "11-Jan-2025",
       lists: [
         { id: 1, icon: faClock, cont: "10:00P.M – 2:00 P.M" },
       ],
       title: "Chess with Cops: A Fundraising Tournament for Community Unity",
+      link: "event-details",
+    },
+    {
+      id: 4,
+      image: image3,
+      date: "26-Jan-2025",
+      lists: [
+        { id: 1, icon: faClock, cont: "5:00P.M – 10:00 P.M" },
+      ],
+      title: "DVLC Kickoff",
       link: "event-details",
     },
   ],

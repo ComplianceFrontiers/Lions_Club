@@ -10,7 +10,7 @@ export const metadata = {
 const page = () => {
   return (
     <Layout>
-      <PageHeader title='Blog  Page' list='Blog' />
+      <PageHeader title='Future Leaders' list='Blog' />
       <BlogPage />
     </Layout>
   );

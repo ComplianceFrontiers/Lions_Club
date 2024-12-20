@@ -31,6 +31,7 @@ const settings = {
       items: 3,
       gutter: 30,
     },
+    
   },
 };
 
@@ -44,7 +45,6 @@ const DonationHomeThree = () => {
   if (!isMount) {
     return null;
   }
-
   return (
     <section className='sec-pad-top donation-home-3'>
       <div
@@ -97,11 +97,7 @@ const DonationHomeThree = () => {
                     ))}
                     </div>
                     <button className="donations-card__know-more-btn">Know More</button>
-
                     </div>
-                  
-
-                
               </div>
             </div>
           ))}
@@ -110,5 +106,4 @@ const DonationHomeThree = () => {
     </section>
   );
 };
-
 export default DonationHomeThree;

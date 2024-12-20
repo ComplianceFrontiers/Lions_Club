@@ -69,6 +69,7 @@ const donationHomeThreeData = {
       ],
       accentColor: "#fdbe44",
     },
+    
   ],
 };
 export default donationHomeThreeData;
